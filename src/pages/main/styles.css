@@ -1,0 +1,71 @@
+.product-list {
+    max-width: 600px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article {
+    background: gray;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list article strong {
+    font-size: 24px;
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: gainsboro;
+    margin-top: 10px;
+    line-height: 16px;
+}
+
+.product-list article a {
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid pink;
+    background: none;
+    margin-top: 30px;
+    color: azure;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s;
+}
+
+.product-list article a:hover {
+    background: pink;
+    color: palevioletred;
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid;
+    background: palevioletred;
+    color: gold;
+    font-size: 16px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.product-list .actions button[disabled] {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.product-list .actions button:hover {
+    opacity: 0.7;
+}

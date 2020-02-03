@@ -1,0 +1,26 @@
+.product-info {
+    max-width: 600px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: greenyellow;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+
+.product-info h1 {
+    color: gray;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.product-info p {
+    color: palevioletred;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-info p a {
+    color: pink;
+    font-size: 1.2rem;
+}
